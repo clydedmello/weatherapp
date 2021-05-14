@@ -48,16 +48,6 @@ app.get('/Weather', (req, res) => {
                     return res.send(error)
                 }
                 else {
-                    //const response = data.split('|')
-                    // return res.send(
-                    //     'Location >>>>>>' + resp.address + '<br>' +
-                    //     "Weather Summary >>>>>>" + data.description + '<br>' +
-                    //     "Currently it is " +
-                    //     data.temprature +
-                    //     " degrees but out there it feels like " +
-                    //     data.feels +
-                    //     " degrees"
-                    // );
                     return res.send(data)
                 }
             })
